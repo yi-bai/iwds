@@ -23,12 +23,12 @@ head_ucv = f'''<?xml version="1.0" encoding="utf-8"?>
   <link rel='stylesheet' type='text/css' href='iwds.css' />
   </head>
 <body data-type="book">
-  <section data-type="titlepage">
-    <h1>UCS Ideograph Unifiable Component Variations List</h1>
-    <h2 data-type="author">ISO/IEC JTC 1/SC 2/WG 2 IRG</h2>
-    <h3>Version: {datetime.date.today().strftime("%b/%d/%Y")}</h3>
-  </section>
-  <nav data-type='toc'>
+  <div>
+    <h1 style="text-align:center;">UCS Ideograph Unifiable Component Variations List</h1>
+    <h2 style="text-align:center;" data-type="author">ISO/IEC JTC 1/SC 2/WG 2 IRG</h2>
+    <h3 style="text-align:center;">Version: {datetime.date.today().strftime("%b/%d/%Y")}</h3>
+  </div>
+  <div data-type='toc'>
     <h2>Table of Contents</h2>
     <ol type='I'>
       <!--toc-->
@@ -44,13 +44,13 @@ head_nucv = f'''<?xml version="1.0" encoding="utf-8"?>
   <link rel='stylesheet' type='text/css' href='iwds.css'/>
 </head>
 <body data-type="book">
-  <section data-type="titlepage">
-    <h1> UCS Ideograph Non-Unifiable Component Variations List (NUCV) </h1>
-    <h2 data-type="author">ISO/IEC JTC 1/SC 2/WG 2 IRG</h2>
-    <h3>Version: {datetime.date.today().strftime("%b/%d/%Y")}</h3>
-  </section>
-  <section data-type='chapter' id='main'>
-  <table>
+  <div>
+    <h1 style="text-align:center;"> UCS Ideograph Non-Unifiable Component Variations List (NUCV) </h1>
+    <h2 style="text-align:center;" data-type="author">ISO/IEC JTC 1/SC 2/WG 2 IRG</h2>
+    <h3 style="text-align:center;">Version: {datetime.date.today().strftime("%b/%d/%Y")}</h3>
+  </div>
+  <div data-type='chapter' id='main'>
+  <table style="width:100%;">
     <!--main-->
 '''
 
@@ -63,12 +63,12 @@ head_ucv_summary = f'''<?xml version="1.0" encoding="utf-8"?>
   <link rel='stylesheet' type='text/css' href='iwds-summary.css' />
   </head>
 <body data-type="book">
-  <section data-type="titlepage">
-    <h1>UCS Ideograph Unifiable Component Variations Summary List (UCV)</h1>
-    <h2 data-type="author">ISO/IEC JTC 1/SC 2/WG 2 IRG</h2>
-    <h3>Version: {datetime.date.today().strftime("%b/%d/%Y")}</h3>
-  </section>
-  <nav data-type='toc'>
+  <div>
+    <h1 style="text-align:center;">UCS Ideograph Unifiable Component Variations Summary List (UCV)</h1>
+    <h2 style="text-align:center;" data-type="author">ISO/IEC JTC 1/SC 2/WG 2 IRG</h2>
+    <h3 style="text-align:center;">Version: {datetime.date.today().strftime("%b/%d/%Y")}</h3>
+  </div>
+  <div data-type='toc'>
     <h2>Table of Contents</h2>
     <ol type='I'>
       <!--toc-->
@@ -83,18 +83,18 @@ head_nucv_summary = f'''<?xml version="1.0" encoding="utf-8"?>
   <link rel='stylesheet' type='text/css' href='iwds-summary.css' />
   </head>
 <body data-type="book">
-  <section data-type="titlepage">
-    <h1> UCS Ideograph Non-Unifiable Component Variations Summary List (NUCV) </h1>
-    <h2 data-type="author">ISO/IEC JTC 1/SC 2/WG 2 IRG</h2>
-    <h3>Version: {datetime.date.today().strftime("%b/%d/%Y")}</h3>
-  </section>
-  <section data-type='chapter' id='main'>
+  <div>
+    <h1 style="text-align:center;"> UCS Ideograph Non-Unifiable Component Variations Summary List (NUCV) </h1>
+    <h2 style="text-align:center;" data-type="author">ISO/IEC JTC 1/SC 2/WG 2 IRG</h2>
+    <h3 style="text-align:center;">Version: {datetime.date.today().strftime("%b/%d/%Y")}</h3>
+  </div>
+  <div data-type='chapter' id='main'>
     <!--main-->
 
 '''
 
 tail = '''  </table>
-</section>
+</div>
 </body>
 </html>
 '''
@@ -107,8 +107,8 @@ def content_links(iwds):
         for subgroup in group.find_all('subgroup'):
             ret.append(f"  <li><a href='#{subgroup['id']}'>{subgroup['en']}</a></li>")
     ret[-1] = ret[-1]+'    </ol>'
-    ret.append('''  </nav>
-  <section data-type='chapter' id='main'>
+    ret.append('''  </div>
+  <div data-type='chapter' id='main'>
   <table>
   <!--main-->
 
@@ -123,8 +123,8 @@ def content_links_summary(iwds):
         for subgroup in group.find_all('subgroup'):
             ret.append(f"  <li><a href='#{subgroup['id']}'>{subgroup['en']}</a></li>")
     ret[-1] += '    </ol>'
-    ret += ['''  </nav>
-  <section data-type='chapter' id='main'>
+    ret += ['''  </div>
+  <div data-type='chapter' id='main'>
     <!--main-->
 
   </div>
@@ -224,11 +224,11 @@ def parse_entry(entry):
 def parse_entry_summary(entry):
     #print(entry['id'])  <table><tr id='1'>
 
-    head = f'''  <table><tr id='{entry['id']}'>
+    head = f'''  <table style="-webkit-column-break-inside:avoid;"><tr id='{entry['id']}'>
     <td>{entry['id']}</td>'''
     col2 = ["    <td>"] + [f"      <img height='26' width='26' src='./glyphs/{glyph}.png'/>" for glyph in entry.find('glyphs').text.split(',')] + ["    </td>"]
-    col3 = [f'''    <td>{entry.find('unified').text.replace('*','').replace('$','').replace('#','') if entry.find('unified') else ''}
-    </td>''']
+    col3 = [f'''    <td style="font-family:initial;"><div style="min-height:32px;">{entry.find('unified').text.replace('*','').replace('$','').replace('#','') if entry.find('unified') else ''}
+    </div></td>''']
 
     tail = '''  </tr></table>'''
 
