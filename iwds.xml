@@ -599,7 +599,7 @@
         <unified>檓燬譭㩓</unified>
       </entry>
       <entry id="90" kind="unifiable">
-        <glyphs>u8200,u2ff1-u722b-u65e7,u2ff1-u722b-u7f52-var-003</glyphs>
+        <glyphs>u8200,u2ff1-u722b-u65e7-var-002,u2ff1-u722b-u7f52-var-003</glyphs>
         <components>舀⿱爫旧⿱爫罒</components>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=02046</ReviewSystem>
       </entry>
@@ -3207,7 +3207,7 @@
         <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=03783</ReviewSystem>
       </entry>
       <entry id="450" kind="unifiable">
-        <glyphs>u8cd3,u8cd4</glyphs>
+        <glyphs>u8cd3-k,u8cd4</glyphs>
         <components>賓賔</components>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=00671</ReviewSystem>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=02529</ReviewSystem>
