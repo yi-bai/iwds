@@ -212,9 +212,10 @@ def parse_entry(entry):
         col3 += [f'''      <hr width='90%' size=4/>
       <h4>Note</h4>{entry.find('note').text}''']
     if entry.find('reviewsystem'):
-        col3 += [f'''      <hr width='90%' size=4/>
+        for reviewsystem in entry.find_all('reviewsystem'):
+            col3 += [f'''      <hr width='90%' size=4/>
       <h4>Review System</h4>
-      <a href='{entry.find('reviewsystem').text}'>{entry.find('reviewsystem').text}</a>''']
+      <a href='{reviewsystem.text}'>{reviewsystem.text}</a>''']
 
     tail = '''    </td>
   </tr>'''
