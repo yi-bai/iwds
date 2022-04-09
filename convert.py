@@ -198,6 +198,8 @@ def parse_entry(entry):
         if not os.path.exists(path): download_glyph(glyph)
 
     col3 = ["    <td>"]
+    if entry.get('level'):
+        col3 += [f"Level: {entry.get('level')}<br/>"]
     if entry.find('jis'):
         for jis in entry.find('jis').text.split(','):
             col3 += [f"      <img src='fig/jis.{jis}.gif' alt='jis.{jis}'/> (JIS X 0213 - {jis})<br/>"]
@@ -226,7 +228,7 @@ def parse_entry_summary(entry):
     #print(entry['id'])  <table><tr id='1'>
 
     head = f'''  <table style="-webkit-column-break-inside:avoid;"><tr id='{entry['id']}'>
-    <td>{entry['id']}</td>'''
+    <td>{entry['id']}{'*' if entry.get('level')=='2' else ''}</td>'''
     col2 = ["    <td>"] + [f"      <img height='26' width='26' src='./glyphs/{glyph}.png'/>" for glyph in entry.find('glyphs').text.split(',')] + ["    </td>"]
     col3 = [f'''    <td style="font-family:initial;"><div style="min-height:32px;">{entry.find('unified').text.replace('*','').replace('$','').replace('#','') if entry.find('unified') else ''}
     </div></td>''']
