@@ -192,7 +192,7 @@ def parse_entry(entry):
     #print(entry['id'])
     head = f"  <tr id='{entry['id']}'>"
     col1 = f"    <td>{entry['id']}</td>"
-    col2 = ["    <td>"] + [f"      <img height='26' width='26' src='./glyphs/{glyph}.png'/>" for glyph in entry.find('glyphs').text.split(',')] + ["    </td>"]
+    col2 = ["    <td>"] + [f"<div style='position:absolute; z-index:-1'>{entry.find('components').text}</div>"] + [f"      <img height='26' width='26' src='./glyphs/{glyph}.png'/>" for glyph in entry.find('glyphs').text.split(',')] + ["    </td>"]
     for glyph in entry.find('glyphs').text.split(','):
         path = f'./glyphs/{glyph}.png'
         if not os.path.exists(path): download_glyph(glyph)

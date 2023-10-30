@@ -42,6 +42,11 @@
         <unified>契恝挈栔洯砉㓞𠪏…</unified>
         <compatibles>喫</compatibles>
       </entry>
+      <entry id="5b" kind="unifiable" level="1">
+        <glyphs>u5951,zihai-031342,u22346-var-008,u5951-var-007,u5951-var-005,u22346-var-006,u22346,u22360,u2d455,u2d698</glyphs>
+        <components>契𢍆𢍠𭑕𭚘</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=01815</ReviewSystem>
+      </entry>
       <entry id="6" kind="unifiable" level="1">
         <glyphs>aj1-14301,aj1-15386</glyphs>
         <components>丰</components>
@@ -190,13 +195,14 @@
         <unified>券劵卷塍媵巻弮桊…</unified>
       </entry>
       <entry id="27" kind="unifiable" level="1">
-        <glyphs>u514c,u5151</glyphs>
-        <components>兌兑</components>
+        <glyphs>u514c,u5151,u514a</glyphs>
+        <components>兌兑兊</components>
         <annexs>S.3</annexs>
         <jis>15</jis>
         <SourceCodeSeparation>兌兑,悅悦,挩捝,敓敚,梲棁,涗涚,稅税,脫脱,蛻蜕,說説,銳鋭,閱閲</SourceCodeSeparation>
         <unified>哾痥祱綐莌鮵㙂㟋…</unified>
         <compatibles>侻娧帨裞駾</compatibles>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=01607</ReviewSystem>
       </entry>
       <entry id="27a" kind="unifiable" level="1">
         <glyphs>u53dc,u53dc-itaiji-001</glyphs>
@@ -230,7 +236,7 @@
         <unified>褱遝鰥㱎䤽䳴</unified>
         <compatibles>瘝㱎𥄳</compatibles>
       </entry>
-      <entry id="32a" kind="unifiable" level="2">
+      <entry id="32a" kind="unifiable" level="1">
         <glyphs>u6c34,u6c3a</glyphs>
         <components>水氺</components>
         <note>IRGN2576 Item 4</note>
@@ -379,9 +385,10 @@
         <compatibles>媵朡潮肭䏙䐋𠠄𣎓𣎜𦞧</compatibles>
       </entry>
       <entry id="54" kind="unifiable" level="1">
-        <glyphs>aj1-03724,aj1-14041</glyphs>
-        <components>凡</components>
+        <glyphs>aj1-03724,aj1-14041,u51e2</glyphs>
+        <components>凡凢</components>
         <jis>37</jis>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=03297</ReviewSystem>
       </entry>
       <entry id="55" kind="unifiable" level="2">
         <glyphs>u51e1,u5342,u5342-var-004,u5342-var-001</glyphs>
@@ -475,6 +482,11 @@
         <unified>勇湧</unified>
         <compatibles>勇勇</compatibles>
       </entry>
+      <entry id="69b" kind="unifiable" level="1">
+        <glyphs>u52c7,u2ff1-u2008a-u7537</glyphs>
+        <components>勇⿱⺈男</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=02624</ReviewSystem>
+      </entry>
       <entry id="70" kind="unifiable" level="1">
         <glyphs>u543f,u544a,u2ff1-u20092-u9fb4</glyphs>
         <components>吿告⿱𠂒龴</components>
@@ -483,6 +495,11 @@
         <unified>俈哠嚳峼悎捁晧梏勂*</unified>
         <compatibles>浩</compatibles>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2017/app/index.php?id=01918</ReviewSystem>
+      </entry>
+      <entry id="70b" kind="unifiable" level="1">
+        <glyphs>u5446,u233bc</glyphs>
+        <components>呆𣎼</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=00125</ReviewSystem>
       </entry>
       <entry id="71" kind="unifiable" level="1">
         <glyphs>aj1-03164,aj1-13955</glyphs>
@@ -651,6 +668,11 @@
         <unified>𠮲𡶹𡚯𣂭𥃖𦈣𧆜𩂧…</unified>
         <compatibles>咢扝虧𡧈𥁄𥃳𧥦</compatibles>
       </entry>
+      <entry id="93b" kind="unifiable" level="1">
+        <glyphs>u96e9,u29079</glyphs>
+        <components>雩𩁹</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=00580</ReviewSystem>
+      </entry>
       <entry id="94" kind="unifiable" level="2">
         <glyphs>u5cc0,u5cc0-t</glyphs>
         <components>峀</components>
@@ -756,9 +778,21 @@
         <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=04623</ReviewSystem>
       </entry>
       <entry id="109d" kind="unifiable" level="1">
-        <glyphs>u27d69,u2ff1-cdp-86ed-u8c9d</glyphs>
-        <components>𧵩⿱𠆴貝</components>
+        <glyphs>u27d69,u2ff1-cdp-86ed-u8c9d,u8cac,u27d69-var-004,u2ff1-u675f-u8c9d</glyphs>
+        <components>𧵩⿱𠆴貝責⿱束貝</components>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=02885</ReviewSystem>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=03822</ReviewSystem>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=02808</ReviewSystem>
+      </entry>
+      <entry id="109e" kind="unifiable" level="2">
+        <glyphs>u756c,u7572,u24c9e</glyphs>
+        <components>畬畲𤲞</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=00901</ReviewSystem>
+      </entry>
+      <entry id="109f" kind="unifiable" level="1">
+        <glyphs>u28472,u8fcb</glyphs>
+        <components>𨑲迋</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=03984</ReviewSystem>
       </entry>
     </subgroup>
     <subgroup id="b-2" en="b-2. Differences in contact of strokes">
@@ -808,9 +842,10 @@
         <compatibles>喳楂</compatibles>
       </entry>
       <entry id="116" kind="unifiable" level="1">
-        <glyphs>u4eb6,u4eb6-ue0103</glyphs>
-        <components>亶</components>
+        <glyphs>u4eb6,u4eb6-ue0103,u2e9ca,u2ff1-u9762-u65e6</glyphs>
+        <components>亶⿱㐭且𮧊⿱面旦</components>
         <unified>亶*擅*</unified>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=01395</ReviewSystem>
       </entry>
       <entry id="117" kind="unifiable" level="1">
         <glyphs>u5c22,u21bc1,u5c22-var-002</glyphs>
@@ -1673,12 +1708,13 @@
         <jis>26</jis>
         <unified>倥崆控椌究穸穹空穽…</unified>
       </entry>
-      <entry id="224" kind="unifiable" level="1">
-        <glyphs>u3563,u3563-var-001,u3563-t,u3563-var-002</glyphs>
-        <components>㕣</components>
+      <entry id="224" kind="unifiable" level="2">
+        <glyphs>u3563,u3563-var-001,u3563-t,u3563-var-002,u516c</glyphs>
+        <components>㕣公</components>
         <jis>189</jis>
         <unified>柗沿船鉛㫟</unified>
         <compatibles>沿䛇</compatibles>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=02472</ReviewSystem>
       </entry>
       <entry id="225" kind="unifiable" level="1">
         <glyphs>u5794-us,aj1-21334</glyphs>
@@ -1997,12 +2033,13 @@
         <unified>壳</unified>
       </entry>
       <entry id="266" kind="unifiable" level="1">
-        <glyphs>u257a4,u257a4-var-001</glyphs>
-        <components>𥞤⿳士冖禾</components>
+        <glyphs>u257a4,u257a4-var-001,u2ff1-u58eb-u20580</glyphs>
+        <components>𥞤⿳士冖禾⿱士𠖀</components>
         <disunified>濲瀔</disunified>
         <unified>穀</unified>
         <compatibles>穀穀</compatibles>
         <references>266a</references>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=01902</ReviewSystem>
       </entry>
       <entry id="267" kind="unifiable" level="1">
         <glyphs>u5bdc,u5be7</glyphs>
@@ -2032,12 +2069,13 @@
         <SourceCodeSeparation>鳯鳳</SourceCodeSeparation>
       </entry>
       <entry id="272" kind="unifiable" level="1">
-        <glyphs>u7690,u7690-var-001,u7690-var-002,u81ef,u81ef-g,u81ef-var-001</glyphs>
-        <components>皐臯</components>
+        <glyphs>u7690,u7690-var-001,u7690-var-002,u81ef,u81ef-g,u81ef-var-001,u2ff1-u767d-u5e72,u2ff1-u767d-u4e30</glyphs>
+        <components>皐臯⿱白干⿱白丰</components>
         <disunified>嘷噑,暭曍,槹橰,獋獔,皐臯</disunified>
         <SourceCodeSeparation>皡皥,翶翺</SourceCodeSeparation>
         <unified>䝥𣽎</unified>
         <compatibles>噑翺</compatibles>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=03173</ReviewSystem>
       </entry>
       <entry id="274" kind="unifiable" level="1">
         <glyphs>u620b,u39ae</glyphs>
@@ -2279,6 +2317,21 @@
         <components>屰𭁄</components>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=03965</ReviewSystem>
       </entry>
+      <entry id="298p" kind="unifiable" level="1">
+        <glyphs>u9f4a,u9f4a-itaiji-005</glyphs>
+        <components>齊</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=04941</ReviewSystem>
+      </entry>
+      <entry id="298q" kind="unifiable" level="1">
+        <glyphs>u3840,u303d8</glyphs>
+        <components>㡀𰏘</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=01610</ReviewSystem>
+      </entry>
+      <entry id="298r" kind="unifiable" level="1">
+        <glyphs>u3431,u2ff1-u5927-u5f61</glyphs>
+        <components>㐱⿱大彡</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=04533</ReviewSystem>
+      </entry>
   </group>
   <group id="j" en="j. Miscellaneous">
     <subgroup id="j-1" en="j-1. Differences of single stroke or separated two strokes">
@@ -2358,6 +2411,16 @@
         <glyphs>u555f,u5553,u555f-itaiji-001,u555f-itaiji-002</glyphs>
         <components>啟啓</components>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=04234</ReviewSystem>
+      </entry>
+      <entry id="307e" kind="unifiable" level="2">
+        <glyphs>y-bai_u2ff1-u96e8-u2ff0-u2b1a-u2b1a,y-bai_u2ff0-u2b1a-u2ff1-u96e8-u2b1a</glyphs>
+        <components>⿱雨⿰⬚⬚⿰⬚⿱雨⬚</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=02950</ReviewSystem>
+      </entry>
+      <entry id="307f" kind="unifiable" level="2">
+        <glyphs>y-bai_u2ff1-u25ad7-u2ff0-u2b1a-u2b1a,y-bai_u2ff0-u2b1a-u2ff1-u25ad7-u2b1a</glyphs>
+        <components>⿱𥫗⿰⬚⬚⿰⬚⿱𥫗⬚</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=02950</ReviewSystem>
       </entry>
       <entry id="308" kind="unifiable" level="1">
         <glyphs>koseki-085850,aj1-04647,aj1-07988</glyphs>
@@ -2750,11 +2813,22 @@
         <unified>簔</unified>
       </entry>
       <entry id="354b" kind="unifiable" level="2">
-        <glyphs>u5c22,u5140,u4e5d,u5c23,u5143</glyphs>
-        <components>尢兀九尣元</components>
+        <glyphs>u5c22,u5140,u4e5d,u5c23,u5143,u5144</glyphs>
+        <components>尢兀九尣元兄</components>
         <disunified>兀尢,卼尯,尬𡯓,尰𡰁,尳𡰅,㞊𥚋,䲫𡰎,𠚯𡯇,𡰝𡰞,𡵈𡵉,𦬂𦬍,𩱽𩲄,九尢,尬𠆷,尳𩨔,旭𡯙,頄𡯺,𠄁𡯾,𠠵𡯄,𡯎𢒂,𡯥𧈤,𡰎𩾛,𧗝𧗢</disunified>
         <SourceCodeSeparation>尪尫,尶尷,抛拋</SourceCodeSeparation>
         <compatibles>𡛪</compatibles>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=03517</ReviewSystem>
+      </entry>
+      <entry id="354c" kind="unifiable" level="2">
+        <glyphs>u2ff1-u5927-u5e72,u2d443,u2ff1-u5927-u30001,u215e2</glyphs>
+        <components>⿱大干𭑃⿱大𰀁𡗢</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=03767</ReviewSystem>
+      </entry>
+      <entry id="354d" kind="unifiable" level="2">
+        <glyphs>u722a,u74dc</glyphs>
+        <components>爪瓜</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=02901</ReviewSystem>
       </entry>
     </subgroup>
     <subgroup id="j-4" en="j-4. Differences on calligraphic simplification">
@@ -2865,12 +2939,13 @@
         <compatibles>並</compatibles>
       </entry>
       <entry id="370" kind="unifiable" level="1">
-        <glyphs>u865a,u865b</glyphs>
+        <glyphs>u865a,u865b,u865a-var-002</glyphs>
         <components>虚虛</components>
         <jis>166</jis>
         <SourceCodeSeparation>嘘噓,戯戱,虚虛</SourceCodeSeparation>
         <unified>墟憈歔虡譃驉魖鱋…</unified>
         <compatibles>歔㩬</compatibles>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=03496</ReviewSystem>
       </entry>
       <entry id="370a" kind="unifiable" level="1">
         <glyphs>u6231,u6232</glyphs>
@@ -2981,12 +3056,13 @@
         <SourceCodeSeparation>婕媫</SourceCodeSeparation>
         <compatibles>蜨</compatibles>
       </entry>
-      <entry id="390" kind="unifiable" level="1">
-        <glyphs>u7f36,u26222,aj1-13691</glyphs>
-        <components>缶𦈢</components>
+      <entry id="390" kind="unifiable" level="2">
+        <glyphs>u7f36,u26222,aj1-13691,cdp-88da</glyphs>
+        <components>缶𦈢𬼉</components>
         <disunified>卸缷,摇𢳸,欫缼,珤𤥖,磘𥕬,祹𥚬,缶𦈢,罅𦉑,罎𦉡,衘䘖,醄𨡒,㗸𠾑,𤮫𤮬,𦉋𦉌,𩛒𩛕,𩝓𩝩,𩢿𩣜</disunified>
         <compatibles>啕啣</compatibles>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=01797</ReviewSystem>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=02475</ReviewSystem>
       </entry>
       <entry id="391" kind="unifiable" level="1">
         <glyphs>u7fae,u7fb9</glyphs>
@@ -3187,9 +3263,10 @@
         <ReviewSystem>https://hc.jsecs.org/irg/ws2017/app/index.php?id=01203</ReviewSystem>
       </entry>
       <entry id="418" kind="unifiable" level="2">
-        <glyphs>u7709,u2d558</glyphs>
-        <components>眉𭕘</components>
+        <glyphs>u7709,u2d558,u7742</glyphs>
+        <components>眉𭕘睂</components>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2017/app/index.php?id=01861</ReviewSystem>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2017/app/index.php?id=01157</ReviewSystem>
       </entry>
       <entry id="419" kind="unifiable" level="1">
         <glyphs>u5c0b,u21b36</glyphs>
@@ -3325,6 +3402,11 @@
         <components>粦⿱𰉗⿰夕𰀁⿱𰉗舛</components>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2017/app/index.php?id=03027</ReviewSystem>
       </entry>
+      <entry id="442a" kind="unifiable" level="1">
+        <glyphs>u6840,u318ce</glyphs>
+        <components>粦𱣎</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=03902</ReviewSystem>
+      </entry>
       <entry id="443" kind="unifiable" level="1">
         <glyphs>u9e7f,u22256</glyphs>
         <components>鹿𢉖</components>
@@ -3451,6 +3533,11 @@
         <components>頟𬱃</components>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=01195</ReviewSystem>
       </entry>
+      <entry id="464b" kind="unifiable" level="1">
+        <glyphs>u310a5,y-bai_u2ff0-u540d-u9875</glyphs>
+        <components>𱂥⿰名页</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=04424</ReviewSystem>
+      </entry>
       <entry id="465" kind="unifiable" level="1">
         <glyphs>u66fc,u2d99f,u2d997</glyphs>
         <components>曼𭦟𭦗</components>
@@ -3467,9 +3554,10 @@
         <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=04852</ReviewSystem>
       </entry>
       <entry id="468" kind="unifiable" level="2">
-        <glyphs>u8089,u2054e,u2e307</glyphs>
-        <components>肉𠕎𮌇</components>
+        <glyphs>u8089,u2054e,u2e307,u2054e-var-004</glyphs>
+        <components>肉𠕎𮌇⿴囗仌</components>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=00969</ReviewSystem>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=00258</ReviewSystem>
       </entry>
       <entry id="469" kind="unifiable" level="2">
         <glyphs>u53f2,u355c</glyphs>
@@ -3485,6 +3573,56 @@
         <glyphs>u5948,u67f0,u2563e</glyphs>
         <components>奈柰𥘾</components>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=02879</ReviewSystem>
+      </entry>
+      <entry id="472" kind="unifiable" level="1">
+        <glyphs>u97cb,u2e9ef</glyphs>
+        <components>韋𮧯</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=04146</ReviewSystem>
+      </entry>
+      <entry id="473" kind="unifiable" level="1">
+        <glyphs>u5176,u5176-var-001</glyphs>
+        <components>其</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=00412</ReviewSystem>
+      </entry>
+      <entry id="474" kind="unifiable" level="1">
+        <glyphs>u77db,u2dff5</glyphs>
+        <components>矛𭿵</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=02724</ReviewSystem>
+      </entry>
+      <entry id="475" kind="unifiable" level="1">
+        <glyphs>u5141,u200d4</glyphs>
+        <components>允𠃔</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=03006</ReviewSystem>
+      </entry>
+      <entry id="476" kind="unifiable" level="2">
+        <glyphs>u87f8,u8821</glyphs>
+        <components>蟸蠡</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=00332</ReviewSystem>
+      </entry>
+      <entry id="477" kind="unifiable" level="1">
+        <glyphs>u7e6d,u27067</glyphs>
+        <components>繭𧁧</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=02670</ReviewSystem>
+      </entry>
+      <entry id="478" kind="unifiable" level="2">
+        <glyphs>u5fc4,u5dfe</glyphs>
+        <components>忄巾</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=01224</ReviewSystem>
+      </entry>
+      <entry id="479" kind="unifiable" level="2">
+        <glyphs>u670b,u670b-var-004</glyphs>
+        <components>朋⿰月习</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=02761</ReviewSystem>
+      </entry>
+      <entry id="480" kind="unifiable" level="2">
+        <glyphs>u84b2,y-bai_u2ff0-u6c35-u2ff1-u4e1a-u7528</glyphs>
+        <components>蒲</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=02061</ReviewSystem>
+      </entry>
+      <entry id="481" kind="unifiable" level="1">
+        <glyphs>u5ba3,u2d074</glyphs>
+        <components>宣𭁴</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=02520</ReviewSystem>
       </entry>
     </subgroup>
   </group>
