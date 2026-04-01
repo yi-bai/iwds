@@ -1080,6 +1080,16 @@
         <components>尼</components>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2024/app/index.php?id=01145</ReviewSystem>
       </entry>
+      <entry id="141d" kind="unifiable" level="2">
+        <glyphs>u5009,u2b749,u2b749-itaiji-002,u2b749-itaiji-001</glyphs>
+        <components>倉𫝉⿱亽君⿱亼君</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2024/app/index.php?id=01253</ReviewSystem>
+      </entry>
+      <entry id="141e" kind="unifiable" level="2">
+        <glyphs>u6534,u652f</glyphs>
+        <components>攴支</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2024/app/index.php?id=01693</ReviewSystem>
+      </entry>
     </subgroup>
     <subgroup id="b-5" en="b-5. Differences in contact point of two strokes">
       <entry id="142" kind="unifiable" level="1">
@@ -1184,6 +1194,11 @@
         <glyphs>u54c0,u2d206,u2ff3-u20089-u53e3-u27607</glyphs>
         <components>哀𭈆⿳𠂉口𧘇</components>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2021/app/index.php?id=00172</ReviewSystem>
+      </entry>
+      <entry id="151e" kind="unifiable" level="2">
+        <glyphs>u8863,u8863-var-013</glyphs>
+        <components>衣⿱𠂉𧘇</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2024/app/index.php?id=01717</ReviewSystem>
       </entry>
     </subgroup>
   </group>
@@ -2459,6 +2474,21 @@
         <components>專</components>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2024/app/index.php?id=00350</ReviewSystem>
       </entry>
+      <entry id="298za" kind="unifiable" level="2">
+        <glyphs>u4f86,u2ffb-u672a-u4ece</glyphs>
+        <components>來</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2024/app/index.php?id=04124</ReviewSystem>
+      </entry>
+      <entry id="298zb" kind="unifiable" level="1">
+        <glyphs>u2ff1-u4e35-u20b9b,u2ff1-u4e35-u53e3</glyphs>
+        <components>⿱丵𠮛⿱丵口</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2024/app/index.php?id=00292</ReviewSystem>
+      </entry>
+      <entry id="298zc" kind="unifiable" level="2">
+        <glyphs>u5eb7,u25e7a</glyphs>
+        <components>康𥹺</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2024/app/index.php?id=02821</ReviewSystem>
+      </entry>
   </group>
   <group id="j" en="j. Miscellaneous">
     <subgroup id="j-1" en="j-1. Differences of single stroke or separated two strokes">
@@ -2783,7 +2813,7 @@
         <SourceCodeSeparation>衛衞</SourceCodeSeparation>
         <unified>㦣</unified>
       </entry>
-      <entry id="333a" kind="not-unifiable">
+      <entry id="333a" kind="unifiable" level="2">
         <glyphs>u7980,u7a1f</glyphs>
         <components>禀稟</components>
         <disunified>凛凜,壈𡒄,廩廪,懍懔,檁檩,燣燷,癛癝,禀稟,𡀀𡀫,𨎹𨎺</disunified>
@@ -2999,6 +3029,11 @@
         <components>䂓規</components>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2024/app/index.php?id=00543</ReviewSystem>
       </entry>
+      <entry id="354j" kind="unifiable" level="1">
+        <glyphs>u5459,u2ff1-u53e3-u79b8</glyphs>
+        <components>呙⿱口禸</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2024/app/index.php?id=01956</ReviewSystem>
+      </entry>
     </subgroup>
     <subgroup id="j-4" en="j-4. Differences on calligraphic simplification">
       <entry id="355" kind="unifiable" level="2">
@@ -3075,7 +3110,7 @@
         <glyphs>u58ee,u58ef</glyphs>
         <components>壮壯</components>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2024/app/index.php?id=02085</ReviewSystem>
-        <note>In Annex S, along with 荘莊 and 装裝, are source separation examples.</note>
+        <note>In Annex S, along with 荘莊 and 装裝, are source separation examples. As an exception, this rule is not applied to the proposed U+2E5A2 disunification per decision on IRG Meeting #66.</note>
       </entry>
       <entry id="363b" kind="not-unifiable">
         <glyphs>u72b6,u72c0</glyphs>
@@ -3890,6 +3925,16 @@
         <glyphs>u56df,u26953,u20681,u56df-var-002,u56df-var-003,u3261f</glyphs>
         <components>囟𦥓𠚁⿱人凶⿱八⿶凵人𲘟</components>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2024/app/index.php?id=02969</ReviewSystem>
+      </entry>
+      <entry id="496a" kind="unifiable" level="2">
+        <glyphs>u2ff0-u37b7-u6535,u2ff0-u32749-u6535,u2ff0-u32749-u6535-var-002,u2ff0-u2d592-u6535,u22f60-g,u22f60-var-006,u22f60-t</glyphs>
+        <components>𢽠</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2024/app/index.php?id=02446</ReviewSystem>
+      </entry>
+      <entry id="496b" kind="unifiable" level="2">
+        <glyphs>u22f43-g,u2ff0-u32749-u6534,u2ff0-u2ff1-u5c71-u2123c-u6534,u2ff0-u2d592-u6534,u2ff0-u31594-u6534,u22f60-var-007,u22f60-var-008</glyphs>
+        <components>𢽃</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2024/app/index.php?id=02446</ReviewSystem>
       </entry>
     </subgroup>
   </group>
