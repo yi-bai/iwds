@@ -730,11 +730,12 @@
         <unified>衋</unified>
       </entry>
       <entry id="103" kind="unifiable" level="1">
-        <glyphs>u4e11-g,aj1-01233,u4e12</glyphs>
-        <components>丑丒</components>
+        <glyphs>u4e11-g,aj1-01233</glyphs>
+        <components>丑</components>
         <hydcd>20</hydcd>
         <unified>丑侴吜妞峱忸橻沑…</unified>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2024/app/index.php?id=02361</ReviewSystem>
+        <note>A third item was removed as specified in IRGN2647 Appendix B.</note>
       </entry>
       <entry id="104" kind="unifiable" level="1">
         <glyphs>u4e38,u4e38-t</glyphs>
@@ -2489,6 +2490,11 @@
         <components>康𥹺</components>
         <ReviewSystem>https://hc.jsecs.org/irg/ws2024/app/index.php?id=02821</ReviewSystem>
       </entry>
+      <entry id="298zd" kind="unifiable" level="2">
+        <glyphs>u5f56,u27c32</glyphs>
+        <components>彖𧰲</components>
+        <note>IRGN2961R3</note>
+      </entry>
   </group>
   <group id="j" en="j. Miscellaneous">
     <subgroup id="j-1" en="j-1. Differences of single stroke or separated two strokes">
@@ -2527,6 +2533,12 @@
         <hydcd>70</hydcd>
         <disunified>寉隺,搉㩁,榷𣙜</disunified>
         <compatibles>鶴</compatibles>
+      </entry>
+      <entry id="304b" kind="unifiable" level="2">
+        <glyphs>u8c9d,u2ff1-u4e14-u516b</glyphs>
+        <components>貝⿱且八</components>
+        <ReviewSystem>https://hc.jsecs.org/irg/ws2024/app/index.php?id=03589</ReviewSystem>
+        <note>Only for meaning of shell.</note>
       </entry>
     </subgroup>
     <subgroup id="j-2" en="j-2. Differences in relative length of strokes">
